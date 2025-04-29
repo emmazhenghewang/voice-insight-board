@@ -1,4 +1,3 @@
-
 import InterviewHeader from "@/components/InterviewHeader";
 import SummaryCard from "@/components/SummaryCard";
 import FeedbackTable from "@/components/FeedbackTable";
@@ -11,27 +10,27 @@ const Index = () => {
         {
           name: "STAR Framework",
           feedback: "Candidate provided a clear situation and task, but action steps could be more detailed. The results were well articulated.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Ability to Answer",
           feedback: "Answered confidently with minimal hesitation, though some tangents occurred.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Communication",
           feedback: "Used clear language and maintained good pace, but could improve on conciseness.",
-          score: "average",
+          score: "average" as const,
         },
         {
           name: "Alignment",
           feedback: "Example aligned well with the question and demonstrated relevant skills.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Emotion and Attitude",
           feedback: "Displayed enthusiasm and a positive attitude throughout the response.",
-          score: "excellent",
+          score: "excellent" as const,
         },
       ],
     },
@@ -41,27 +40,27 @@ const Index = () => {
         {
           name: "STAR Framework",
           feedback: "Strong on situation and task, but could improve on detailing the actions taken.",
-          score: "average",
+          score: "average" as const,
         },
         {
           name: "Ability to Answer",
           feedback: "Showed good understanding of the question but took time to formulate thoughts.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Communication",
           feedback: "Clear articulation but occasionally used filler words.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Alignment",
           feedback: "The example was relevant and showcased conflict resolution skills.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Emotion and Attitude",
           feedback: "Maintained a professional tone while discussing a challenging situation.",
-          score: "excellent",
+          score: "excellent" as const,
         },
       ],
     },
@@ -71,27 +70,27 @@ const Index = () => {
         {
           name: "STAR Framework",
           feedback: "Well-structured answer with clear situation and actions, but results could be more specific.",
-          score: "good",
+          score: "good" as const,
         },
         {
           name: "Ability to Answer",
           feedback: "Responded directly to the question with a relevant example.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Communication",
           feedback: "Articulated thoughts clearly with good pacing and minimal filler words.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Alignment",
           feedback: "Example demonstrated adaptability and flexibility as requested.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Emotion and Attitude",
           feedback: "Displayed a positive mindset toward change and challenges.",
-          score: "good",
+          score: "good" as const,
         },
       ],
     },
@@ -104,17 +103,17 @@ const Index = () => {
         {
           name: "STAR Framework",
           feedback: "Provided strong examples with clear actions and results showing impact.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Technical Knowledge",
           feedback: "Demonstrated in-depth knowledge of SQL, Python, and visualization tools.",
-          score: "excellent",
+          score: "excellent" as const,
         },
         {
           name: "Relevance to Role",
           feedback: "Drew clear connections between past experience and job requirements.",
-          score: "good",
+          score: "good" as const,
         },
       ],
     },
@@ -124,17 +123,17 @@ const Index = () => {
         {
           name: "STAR Framework",
           feedback: "Answer lacked structure, particularly in defining actions and results.",
-          score: "needs-work",
+          score: "needs-work" as const,
         },
         {
           name: "Problem-Solving Approach",
           feedback: "Showed logical thinking but could provide more specific strategies.",
-          score: "average",
+          score: "average" as const,
         },
         {
           name: "Stakeholder Management",
           feedback: "Good consideration of different stakeholders and their needs.",
-          score: "good",
+          score: "good" as const,
         },
       ],
     },
